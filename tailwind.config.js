@@ -6,12 +6,19 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
+    letterSpacing: {
+      '1': '0.25em'
+    },
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'gradient-radial': 'linear-gradient(180deg, rgba(20, 20, 20, 0) 0%, rgba(20, 20, 20, 0.916667) 5.07%, #141414 7.48%);',
+        background: "url('/background.svg')"
       },
+      colors: {
+        secondary: {
+          1: 'rgba(255, 255, 255, 0.5);'
+        }
+      }
     },
   },
   plugins: [],
