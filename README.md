@@ -7,7 +7,7 @@ Este é um projeto pessoal para criar um clone da Netflix usando React e Tailwin
 1- Clone o repositório em sua máquina local usando o seguinte comando:
 
 ```bash
-git clone https://github.com/seu-usuario/clone-netflix-react-tailwindcss.git
+git clone https://github.com/Luan-max/netflix-clone-with-tailwind.git
 ```
 
 2- Execute o seguinte comando para instalar as dependências:
